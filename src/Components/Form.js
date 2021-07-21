@@ -1,7 +1,6 @@
 import FormInput from './FormInput';
 
 export default function Form(props) {
-    const { onInputChange } = props;
     //console.log(props.onInputChange);
     const inputs = [{
         type: 'input',
